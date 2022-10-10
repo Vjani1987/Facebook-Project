@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="33.363452">
+    <testcase classname="Facebook Application" name="Login Functionality" time="16.82024">
+        <system-out><![CDATA[Given user Launch The Url...................................................passed
+When user Print The Text In The Login Page..................................passed
+When user Enter The Username................................................passed
+And user enter The Incorrect Password.......................................passed
+And user Click The Login Button.............................................passed
+And user Take Screenshot of The Current WebPage.............................passed
+And user navigate To The Login Page.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Facebook Application" name="SignUp Functionality" time="16.543212">
+        <system-out><![CDATA[Given user Launch The Url...................................................passed
+When user Click The Create New account Button And It Navigates To The Next Page.passed
+And user Enter The FirstName In The FirstName Field.........................passed
+And user Enter The SurName In The SurName Field.............................passed
+And user Enter The Mobile Number In The MobileNumberField...................passed
+And user Enter the NewPassword In The Password Field........................passed
+And user Select Day From DropDown...........................................passed
+And user Select Month From dropDown.........................................passed
+And user Select Year From DropDown..........................................passed
+And user Choose Gender From Options.........................................passed
+And user signUp And It Navigates To Another Page............................passed
+And user Takes ScreenShot Of The Current WebPage............................passed
+Then user Navigate To The Login Page........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
